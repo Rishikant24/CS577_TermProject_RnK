@@ -17,7 +17,7 @@ The repository includes Python implementations of step-reduced MD5 variants and 
 3. **`md5_47_step.py`**  
    - Implements the 47-step MD5 hash function.  
 
-4. **`preimage_attack_32step.py`**  
+4. **`attackOn32step.py`**  
    - Implements the preimage attack on the 32-step MD5 function based on the pseudocode in Aumasson et al.'s research.  
    - The attack can be extended to the other step-reduced MD5 variants.  
 
@@ -36,7 +36,7 @@ The repository includes Python implementations of step-reduced MD5 variants and 
 
 3. To test the preimage attack:  
    ```bash  
-   python preimage_attack_32step.py  
+   python attackOn32step.py  
    ```  
 
 
